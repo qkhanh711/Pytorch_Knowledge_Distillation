@@ -1,3 +1,14 @@
+#import
+import torch
+from torch import nn,optim
+from tqdm import tqdm
+import numpy as np
+import matplotlib.pyplot as plt
+import torchvision
+from torchvision import transforms
+from torch.utils.data import DataLoader
+from torchvision import datasets
+
 # Construct Distiller class
 
 class Distiller(nn.Module):

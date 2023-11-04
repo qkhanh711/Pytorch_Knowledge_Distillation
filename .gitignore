@@ -1,0 +1,7 @@
+# MNIST data
+**date/MNIST/raw*
+
+# Student model
+student.pth
+
+pychache/
